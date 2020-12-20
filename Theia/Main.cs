@@ -15,7 +15,7 @@ namespace Theia
             var indicadores = Theia.Main.ActiveForm as Main;
             indicadores.tudoIndicador.Visible = false;
             indicadores.procuracaoIndicador.Visible = false;
-            indicadores.vendaECompraIndicador.Visible = false;
+            indicadores.NotasIndicador.Visible = false;
             indicadores.inventarioIndicador.Visible = false;
             indicadores.testamentoIndicador.Visible = false;
             return;
@@ -32,7 +32,7 @@ namespace Theia
         private void VendaECompraSecao_Click(object sender, EventArgs e)
         {
             EsconderTudo();
-            vendaECompraIndicador.Visible = true;
+            NotasIndicador.Visible = true;
         }
 
         private void InventarioSecao_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace Theia
         private void Filtros_Click(object sender, EventArgs e)
         {
             Filters formPesquisa = new Filters();
-            formPesquisa.Show();
+            formPesquisa.ShowDialog();
 
         }
     }

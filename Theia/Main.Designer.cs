@@ -35,11 +35,11 @@ namespace Theia
             this.procuracaoIndicador = new System.Windows.Forms.Label();
             this.Filtros = new System.Windows.Forms.Label();
             this.inventarioIndicador = new System.Windows.Forms.Label();
-            this.vendaECompraIndicador = new System.Windows.Forms.Label();
+            this.NotasIndicador = new System.Windows.Forms.Label();
             this.tudoIndicador = new System.Windows.Forms.Label();
             this.TestamentoSecao = new System.Windows.Forms.Label();
             this.ProcuracaoSecao = new System.Windows.Forms.Label();
-            this.VendaECompraSecao = new System.Windows.Forms.Label();
+            this.NotasSecao = new System.Windows.Forms.Label();
             this.TudoSecao = new System.Windows.Forms.Label();
             this.marginBarraDeBusca = new System.Windows.Forms.Panel();
             this.tituloBarraDeBusca = new System.Windows.Forms.Label();
@@ -68,11 +68,11 @@ namespace Theia
             this.header.Controls.Add(this.procuracaoIndicador);
             this.header.Controls.Add(this.Filtros);
             this.header.Controls.Add(this.inventarioIndicador);
-            this.header.Controls.Add(this.vendaECompraIndicador);
+            this.header.Controls.Add(this.NotasIndicador);
             this.header.Controls.Add(this.tudoIndicador);
             this.header.Controls.Add(this.TestamentoSecao);
             this.header.Controls.Add(this.ProcuracaoSecao);
-            this.header.Controls.Add(this.VendaECompraSecao);
+            this.header.Controls.Add(this.NotasSecao);
             this.header.Controls.Add(this.TudoSecao);
             this.header.Controls.Add(this.marginBarraDeBusca);
             this.header.Controls.Add(this.tituloBarraDeBusca);
@@ -86,7 +86,7 @@ namespace Theia
             this.testamentoIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(128)))), ((int)(((byte)(104)))));
             this.testamentoIndicador.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.testamentoIndicador.ForeColor = System.Drawing.Color.White;
-            this.testamentoIndicador.Location = new System.Drawing.Point(402, 113);
+            this.testamentoIndicador.Location = new System.Drawing.Point(322, 113);
             this.testamentoIndicador.Name = "testamentoIndicador";
             this.testamentoIndicador.Size = new System.Drawing.Size(90, 3);
             this.testamentoIndicador.TabIndex = 13;
@@ -97,7 +97,7 @@ namespace Theia
             this.procuracaoIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(128)))), ((int)(((byte)(104)))));
             this.procuracaoIndicador.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.procuracaoIndicador.ForeColor = System.Drawing.Color.White;
-            this.procuracaoIndicador.Location = new System.Drawing.Point(304, 112);
+            this.procuracaoIndicador.Location = new System.Drawing.Point(224, 112);
             this.procuracaoIndicador.Name = "procuracaoIndicador";
             this.procuracaoIndicador.Size = new System.Drawing.Size(85, 3);
             this.procuracaoIndicador.TabIndex = 12;
@@ -120,22 +120,22 @@ namespace Theia
             this.inventarioIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(128)))), ((int)(((byte)(104)))));
             this.inventarioIndicador.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inventarioIndicador.ForeColor = System.Drawing.Color.White;
-            this.inventarioIndicador.Location = new System.Drawing.Point(214, 112);
+            this.inventarioIndicador.Location = new System.Drawing.Point(134, 112);
             this.inventarioIndicador.Name = "inventarioIndicador";
             this.inventarioIndicador.Size = new System.Drawing.Size(80, 3);
             this.inventarioIndicador.TabIndex = 10;
             this.inventarioIndicador.Visible = false;
             // 
-            // vendaECompraIndicador
+            // NotasIndicador
             // 
-            this.vendaECompraIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(128)))), ((int)(((byte)(104)))));
-            this.vendaECompraIndicador.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vendaECompraIndicador.ForeColor = System.Drawing.Color.White;
-            this.vendaECompraIndicador.Location = new System.Drawing.Point(77, 112);
-            this.vendaECompraIndicador.Name = "vendaECompraIndicador";
-            this.vendaECompraIndicador.Size = new System.Drawing.Size(130, 3);
-            this.vendaECompraIndicador.TabIndex = 9;
-            this.vendaECompraIndicador.Visible = false;
+            this.NotasIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(128)))), ((int)(((byte)(104)))));
+            this.NotasIndicador.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NotasIndicador.ForeColor = System.Drawing.Color.White;
+            this.NotasIndicador.Location = new System.Drawing.Point(77, 112);
+            this.NotasIndicador.Name = "NotasIndicador";
+            this.NotasIndicador.Size = new System.Drawing.Size(50, 3);
+            this.NotasIndicador.TabIndex = 9;
+            this.NotasIndicador.Visible = false;
             // 
             // tudoIndicador
             // 
@@ -152,7 +152,7 @@ namespace Theia
             this.TestamentoSecao.AutoSize = true;
             this.TestamentoSecao.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TestamentoSecao.ForeColor = System.Drawing.Color.White;
-            this.TestamentoSecao.Location = new System.Drawing.Point(400, 88);
+            this.TestamentoSecao.Location = new System.Drawing.Point(320, 88);
             this.TestamentoSecao.Name = "TestamentoSecao";
             this.TestamentoSecao.Size = new System.Drawing.Size(96, 25);
             this.TestamentoSecao.TabIndex = 7;
@@ -164,24 +164,24 @@ namespace Theia
             this.ProcuracaoSecao.AutoSize = true;
             this.ProcuracaoSecao.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProcuracaoSecao.ForeColor = System.Drawing.Color.White;
-            this.ProcuracaoSecao.Location = new System.Drawing.Point(301, 88);
+            this.ProcuracaoSecao.Location = new System.Drawing.Point(221, 88);
             this.ProcuracaoSecao.Name = "ProcuracaoSecao";
             this.ProcuracaoSecao.Size = new System.Drawing.Size(93, 25);
             this.ProcuracaoSecao.TabIndex = 6;
             this.ProcuracaoSecao.Text = "Procuração";
             this.ProcuracaoSecao.Click += new System.EventHandler(this.ProcuracaoSecao_Click);
             // 
-            // VendaECompraSecao
+            // NotasSecao
             // 
-            this.VendaECompraSecao.AutoSize = true;
-            this.VendaECompraSecao.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VendaECompraSecao.ForeColor = System.Drawing.Color.White;
-            this.VendaECompraSecao.Location = new System.Drawing.Point(77, 87);
-            this.VendaECompraSecao.Name = "VendaECompraSecao";
-            this.VendaECompraSecao.Size = new System.Drawing.Size(131, 25);
-            this.VendaECompraSecao.TabIndex = 4;
-            this.VendaECompraSecao.Text = "Venda e Compra";
-            this.VendaECompraSecao.Click += new System.EventHandler(this.VendaECompraSecao_Click);
+            this.NotasSecao.AutoSize = true;
+            this.NotasSecao.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NotasSecao.ForeColor = System.Drawing.Color.White;
+            this.NotasSecao.Location = new System.Drawing.Point(77, 87);
+            this.NotasSecao.Name = "NotasSecao";
+            this.NotasSecao.Size = new System.Drawing.Size(52, 25);
+            this.NotasSecao.TabIndex = 4;
+            this.NotasSecao.Text = "Notas";
+            this.NotasSecao.Click += new System.EventHandler(this.VendaECompraSecao_Click);
             // 
             // TudoSecao
             // 
@@ -225,7 +225,7 @@ namespace Theia
             this.InventarioSecao.AutoSize = true;
             this.InventarioSecao.Font = new System.Drawing.Font("Poppins", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InventarioSecao.ForeColor = System.Drawing.Color.White;
-            this.InventarioSecao.Location = new System.Drawing.Point(213, 89);
+            this.InventarioSecao.Location = new System.Drawing.Point(133, 89);
             this.InventarioSecao.Name = "InventarioSecao";
             this.InventarioSecao.Size = new System.Drawing.Size(81, 25);
             this.InventarioSecao.TabIndex = 5;
@@ -260,12 +260,12 @@ namespace Theia
         private System.Windows.Forms.Panel header;
         private System.Windows.Forms.Panel marginBarraDeBusca;
         private System.Windows.Forms.Label ProcuracaoSecao;
-        private System.Windows.Forms.Label VendaECompraSecao;
+        private System.Windows.Forms.Label NotasSecao;
         private System.Windows.Forms.Label TudoSecao;
         private System.Windows.Forms.Label InventarioSecao;
         private System.Windows.Forms.Label TestamentoSecao;
         public System.Windows.Forms.Label tudoIndicador;
-        public System.Windows.Forms.Label vendaECompraIndicador;
+        public System.Windows.Forms.Label NotasIndicador;
         private System.Windows.Forms.Label tituloBarraDeBusca;
         private System.Windows.Forms.Label Filtros;
         public System.Windows.Forms.Label procuracaoIndicador;
